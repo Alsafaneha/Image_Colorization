@@ -1,17 +1,24 @@
-# Image_Colorization
-![Alt Colorization](https://learnopencv.com/wp-content/uploads/2018/07/colorization-example.png)
+# Image Colorization Using GANs
 
-This project is our final project in Samsung Innovation Campus - AI 502 Scholarship . our project colorize gray scale image.
-we use two models in deep learning to make this project ,AutoEncoder & GANs.
-in the deployment we used flask and Streamlit. We uploaded them in two accounts.
-in my account and [Flask deployment](https://github.com/Rahma712/dl)
+This repository contains the implementation of an image colorization model using Generative Adversarial Networks (GANs). The model is designed to convert grayscale images to their corresponding colorized versions.
 
-powered by :
-[Ahmed Hatem](https://www.linkedin.com/in/ahmed-hatem-aboelkhair-564447214/)
-[Ziyad Elshazly](https://www.linkedin.com/in/ziyad-elshazly-a2894b205/)
-[Rahma Mahmoud](https://www.linkedin.com/in/rahma-mahmoud-007784202/)
+## Overview
+The image colorization model leverages the power of GANs to generate realistic and visually appealing colorizations. It consists of a generator network that learns to map grayscale images to colorized versions, and a discriminator network that evaluates the realism of the generated color images.
 
-Supervised by :
-[Ziad Omar](https://www.linkedin.com/in/zead-o-yousef-7baa601bb/)
+## Features
+- Implementation of a GAN-based image colorization model
+- Training pipeline for the generator and discriminator networks
+- Evaluation metrics for assessing the quality of colorized images
+- Visualization of colorization results
+
+## Requirements
+- Python 3.x
+- TensorFlow
+- Keras
+- NumPy
+- OpenCV
+- Matplotlib
+
+
 
 
